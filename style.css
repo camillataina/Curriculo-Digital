@@ -1,0 +1,205 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.folha {
+  width: 700px;
+  height: 842px;
+  margin: 30px;
+  position: relative;
+  display: flex;
+  box-sizing: border-box;
+  border: 1px solid black;
+  border-radius: 20px 0px 0px 20px;
+}
+
+.box-white {
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+  margin: 20px;
+}
+
+.imagem {
+  width: 150px;
+  border-radius: 50%;
+  float: left;
+}
+
+.titulo h2 {
+  float: left;
+  padding-top: 40px;
+  padding-left: 10px;
+  font-family: "roboto", sans-serif;
+  color: #19304f;
+  font-size: 35px;
+  line-height: 20px;
+}
+
+.titulo p {
+  padding-top: 70px;
+  padding-left: 185px;
+  flex-direction: row;
+  text-align: left;
+  color: #19304f;
+  font-size: 16px;
+  font-family: "roboto", sans-serif;
+  font-weight: 500;
+}
+
+.aboutme {
+  flex-direction: row;
+  margin: 10px;
+}
+
+.profile {
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.profile h3 {
+  padding: 15px 0px 0px 15px;
+  color: #19304f;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.profile p {
+  color: #222222;
+  text-align: justify;
+  font-family: "roboto", sans-serif;
+  font-size: 14px;
+  padding: 10px 0px 0px 0px;
+}
+
+.experiencia h3 {
+  padding: 15px 0px 0px 15px;
+  color: #19304f;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.experiencia ul,
+li {
+  color: #222222;
+  text-align: justify;
+  font-family: "roboto", sans-serif;
+  font-size: 14px;
+  padding: 10px 0px 0px 0px;
+}
+
+.educacao h3 {
+  padding: 15px 0px 0px 15px;
+  color: #19304f;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.educacao ul,
+li {
+  color: #222222;
+  border: 1px solid #ffffff;
+  text-align: justify;
+  font-family: "roboto", sans-serif;
+  font-size: 14px;
+  padding: 10px 0px 0px 0px;
+}
+
+.projeto h3 {
+  padding: 15px 0px 0px 15px;
+  color: #19304f;
+  font-family: "Roboto", sans-serif;
+  font-size: 18px;
+  line-height: 16px;
+  font-style: normal;
+  font-weight: 500;
+}
+
+.projeto ul,
+li,
+a {
+  color: #222222;
+  text-align: justify;
+  font-family: "roboto", sans-serif;
+  font-size: 14px;
+  padding: 10px 0px 0px 0px;
+}
+
+.box-blue {
+  background-color: #19304f;
+  flex-direction: column;
+  width: 35%;
+}
+
+.contato h4 {
+  color: #ffffff;
+  font-family: "roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 14px;
+  text-align: left;
+  padding-top: 90px;
+  padding-left: 12px;
+  margin-bottom: 10px;
+}
+
+.contato p,
+ol {
+  color: #ffffff;
+  font-family: "roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 15px;
+  padding-top: 4px;
+  padding-left: 24px;
+  text-align: left;
+  direction: row;
+}
+
+.contato i {
+  padding-top: 10px;
+  color: #ffffff;
+  padding-left: 30px;
+  display: inline-block;
+}
+
+.conhecimento h4 {
+  color: #ffffff;
+  font-family: "roboto", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 14px;
+  text-align: left;
+  padding-top: 30px;
+  padding-left: 12px;
+  margin-bottom: 10px;
+}
+
+.conhecimento ol {
+  color: #ffffff;
+  font-family: "roboto", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 12px;
+  line-height: 15px;
+  padding-top: 10px;
+  margin-left: 30px;
+  text-align: left;
+  direction: row;
+  padding-left: 10px;
+  border-bottom: 1px solid #ffffff;
+  width: 70px;
+}
